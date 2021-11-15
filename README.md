@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+This project is the MineSweeper game.
+
+"Minesweeper is single-player logic-based computer game played on rectangular board whose object is to locate a predetermined number of randomly-placed "mines" in the shortest possible time by clicking on "safe" squares while avoiding the squares with mines. If the player clicks on a mine, the game ends." - "https://mathworld.wolfram.com/Minesweeper"
+
+## Rules of the game
+
+* To play minesweeper you need to click on the cells to reveal it.
+
+* You need to avoid clicking on the bombs by estimating how many bombs are next to the revealed cells.
+
+* Revealed cells will display a number which will indicate how many mines may be next to it.
+
+* Use right click to place a flag on cells where you think a mine may be.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +84,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Credit: Edurise for Minesweeper tutorial
