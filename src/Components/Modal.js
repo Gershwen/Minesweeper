@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 
 // When the user clicks on a bomb the below function should call revealing a gameover screen and "Try again" button
 const Modal = ({ restartGame }) => {
+  //the state of the Modal component is originally set to false.
   const [render, setRender] = useState(false);
 
   //making use of useEffect hook to call the function 1 second later to also reveal where all the bombs were

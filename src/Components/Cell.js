@@ -9,10 +9,10 @@ export default function Cell({ details, updateFlag, revealCell }) {
       className="cellStyle"
     >
       {!details.revealed && details.flagged ? (
-        <i style={{ color: "red" }} class="fas fa-flag"></i>
+        <i style={{ color: "red" }} className="fas fa-flag"></i>
       ) : details.revealed && details.value !== 0 ? (
         details.value === "X" ? (
-          <i class="fas fa-bomb"></i>
+          <i className="fas fa-bomb"></i>
         ) : (
           details.value
         )

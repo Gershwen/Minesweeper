@@ -29,6 +29,8 @@ const Board = () => {
     setGrid(newBoard.board);
   }
 
+  //restartGame function calls the freshBoard function to start the game over and then calls the
+  //setGameOver function to false to indicate its a new game.
   const restartGame = () => {
     freshBoard();
     setGameOver(false);

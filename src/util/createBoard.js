@@ -1,4 +1,4 @@
-export default (row, col, bombs) => {
+export default function foo(row, col, bombs){
   let board = [];
   let mineLocation = [];
 
@@ -94,9 +94,11 @@ export default (row, col, bombs) => {
   }
 
   return { board, mineLocation };
+
 };
 
 function randomNum(min = 0, max) {
   //min and max included
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+
